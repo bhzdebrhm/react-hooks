@@ -35,8 +35,11 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "@bhzdebrhm/react-hooks",
-  "repository": "git://github.com/bhzdebrhm/react-hooks.git",
+  "name": "@behzadebrhm/react-hooks",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bhzdebrhm/react-hooks.git"
+  },
   "author": "bhzdebrhm",
   "size-limit": [
     {
@@ -64,5 +67,14 @@
   "dependencies": {
     "immer": "^9.0.16",
     "uuid": "^9.0.0"
+  },
+  "description": "Congrats! You just saved yourself hours of work by bootstrapping this project with TSDX. Let’s get you oriented with what’s here and how to use it.",
+  "bugs": {
+    "url": "https://github.com/bhzdebrhm/react-hooks/issues"
+  },
+  "homepage": "https://github.com/bhzdebrhm/react-hooks#readme",
+  "directories": {
+    "example": "example",
+    "test": "test"
   }
 }
