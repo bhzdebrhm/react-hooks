@@ -35,7 +35,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "@behzadebrhm/react-hooks",
+  "name": "@bhzdebrhm/react-hooks",
   "repository": {
     "type": "git",
     "url": "git://github.com/bhzdebrhm/react-hooks.git"
