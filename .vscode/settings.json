@@ -1,0 +1,14 @@
+{
+  "compile-hero.disable-compile-files-on-did-save-code": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "git.mergeEditor": false,
+  "editor.formatOnPaste": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "typescript.tsdk": "node_modules\\typescript\\lib"
+}
