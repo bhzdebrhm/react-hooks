@@ -62,7 +62,7 @@ export function useRefHandle({
         (e: MouseEvent | TouchEvent) => {
             if (ref && ref.current) {
                 if (refComparator(ref.current, e.target)) {
-                    e.preventDefault();
+                    // e.preventDefault();
                     e.stopPropagation();
                     onTriggered?.(e.type, e);
                 } else {
