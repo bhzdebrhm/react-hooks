@@ -3,7 +3,7 @@ import { DependencyList, EffectCallback, useEffect, useRef } from 'react';
 
 type DepsEqualFnType<TDeps extends DependencyList> = (prevDeps: TDeps, nextDeps: TDeps) => boolean;
 
-const useCustomCompareEffect = <TDeps extends DependencyList>(
+export const useCustomCompareEffect = <TDeps extends DependencyList>(
   effect: EffectCallback,
   deps: TDeps,
   depsEqual: DepsEqualFnType<TDeps>
@@ -18,4 +18,3 @@ const useCustomCompareEffect = <TDeps extends DependencyList>(
   useEffect(effect, ref.current);
 };
 
-export default useCustomCompareEffect;
